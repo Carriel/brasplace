@@ -1,0 +1,18 @@
+import { Component } from '@angular/core';
+
+@Component({
+  selector: 'app-root',
+  template: `
+    <h1>Bem-vindo ao meu site!</h1>
+    <p>Este é um site estático criado em Angular.</p>
+  `,
+  styles: [`
+    h1 {
+      color: blue;
+    }
+    p {
+      font-size: 1.2em;
+    }
+  `]
+})
+export class AppComponent {}
